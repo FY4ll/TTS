@@ -11,19 +11,19 @@ const positions = [
     },
     {
         roomName: "lausanne.suchet@jobtrek.ch",
-        position: { x: 20, y: 1000, z: 10 }
+        position: { x: -130, y: 40, z: 20 }
     },
     {
         roomName: "lausanne.chasseron@jobtrek.ch",
-        position: { x: 20, y: 1000, z: 10 }
+        position: { x: -130, y: 40, z: -60 }
     },
     {
         roomName: "lausanne.argentine@jobtrek.ch",
-        position: { x: 20, y: 1000, z: 10 }
+        position: { x: -140, y: 160, z: -70 }
     },
     {
         roomName: "lausanne.chamossaire@jobtrek.ch",
-        position: { x: 20, y: 1000, z: 10 }
+        position: { x: -140, y: 160, z: 40 }
     },
     {
         roomName: "lausanne.monch@jobtrek.ch",
@@ -35,17 +35,17 @@ const positions = [
     },
     {
         roomName: "lausanne.dent-du-midi@jobtrek.ch",
-        position: { x: 20, y: 1000, z: 10 }
+        position: { x: -20, y: 160, z: 40 }
     },
 
     {
         roomName: "lausanne.wengen@jobtrek.ch",
-        position: { x: 20, y: 1000, z: 10 }
+        position: { x: 140, y: 140, z: -20 }
     },
 
     {
         roomName: "lausanne.jungfrau@jobtrek.ch",
-        position: { x: 20, y: 1000, z: 10 }
+        position: { x: -10, y: 170, z: -70 }
     }
 ]
 

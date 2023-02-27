@@ -77,14 +77,8 @@ playButton2.forEach(button => {
 });
 
 
-action1 = mixer.clipAction(clip1);
-action2 = mixer.clipAction(clip2);
 
-// Ajoutez cette ligne pour jouer en boucle l'animation 1 :
-action1.setLoop(THREE.LoopRepeat);
 
-// Ajoutez cette ligne pour jouer en boucle l'animation 2 :
-action2.setLoop(THREE.LoopRepeat);
 
 
 function animate() {

@@ -1,0 +1,43 @@
+  /* Le menu est caché au départ */
+  #menu {
+      position: fixed;
+      left: -400px;
+      top: 76px;
+      bottom: 0;
+      width: 400px;
+      background-color: #384047;
+      transition: left 0.3s ease-in-out;
+  }
+
+  /* Le menu est visible quand il est ouvert */
+  #menu.open {
+      left: 0;
+  }
+
+  /* Le bouton est positionné en haut à gauche */
+  #menuButton {
+      margin-left: 200px;
+      position: fixed;
+      left: 400px;
+      top: 20px;
+      display: inline-block;
+      background-color: #198754;
+      padding: 20px 20px;
+      border-radius: 10px;
+      border-color: aliceblue;
+      width: 200px;
+      height: 30px;
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+  }
+
+  #menuButton:hover {
+      background-color: #1ea365;
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(22, 123, 76, 0.5);
+      transition: all 0.2s ease-in-out;
+  }
