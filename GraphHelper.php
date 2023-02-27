@@ -99,7 +99,7 @@ class GraphHelper
             echo $image;
             echo $_SESSION['uname'];
             echo '<div class="dropdown-menu">';
-            echo '<a href="#" class="dropdown-item"><i class="fa fa-user-o"></i> Profile</a>';
+            echo '<a href="https://myaccount.microsoft.com" class="dropdown-item"><i class="fa fa-user-o"></i> Profile</a>';
             echo '<a href="?action=logout" class="dropdown-item">Logout</a>';
             echo '</div>';
         } else {
