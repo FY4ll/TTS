@@ -8,7 +8,6 @@ class GraphHelper
     private static string $clientId;
     private static string $tenantId;
     private static Graph $userClient;
-    public static string $userToken;
 
     public static function initializeGraphForUserAuth(): void
     {
