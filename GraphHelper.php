@@ -153,6 +153,10 @@ class GraphHelper
             curl_close($curl);
 
             if ($err) {
+                if($err == 401){
+                    header('Location: /refresh_token');
+                    exit;
+                }
                 echo "cURL Error #:" . $err;
             } else {
                 $schedules = json_decode($response);
