@@ -5,7 +5,7 @@ session_start();
 $_SESSION['state'] = session_id();
 $graph = new GraphHelper();
 $graph->login();
-if(isset($_SESSION['msatg'])){
+if(isset($_SESSION['t'])){
     $graph->getRoom();
 }
 ?>
