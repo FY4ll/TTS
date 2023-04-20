@@ -11,16 +11,16 @@ Installation
 ------------
 
 - Cloner le dépôt
-- Configurer l'environnement PHP et la base de données
+- Configurer l'environnement PHP
 - Configurer l'authentification Microsoft Graph
 
 Configuration
 -------------
 
-La configuration de l'application se fait dans le fichier `config.php`. Les informations d'authentification Microsoft Graph doivent être fournies pour pouvoir se connecter et accéder aux informations utilisateur.
+La configuration de l'application se fait dans le fichier `composer.json`. Les informations d'authentification Microsoft Graph doivent être fournies dans un .env pour pouvoir se connecter et accéder aux informations utilisateur.
 
 Utilisation
 -----------
 
-L'utilisateur doit s'authentifier avec son compte Microsoft en utilisant la page de connexion. Après s'être connecté, l'utilisateur est redirigé vers sa page de profil où il peut voir toutes ses informations utilisateur. À partir de là, il peut accéder à la page de visualisation de salle en 3D pour voir les salles chargées avec Three.js.
+L'utilisateur doit s'authentifier avec son compte Microsoft en utilisant la page de connexion. Après s'être connecté, l'utilisateur est redirigé vers la page des salle où il peut voir toutes ses informations sur les salles ainsi que les rendez-vous.
 
